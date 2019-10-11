@@ -4,7 +4,7 @@ car=[];
 ss=S(:)';
 for n=1:levels,
     [CA CD]=dwt(ss,wname);
-    ce(n)=sum(CD.^2); %energia
+    ce(n)=sum(CD.^2); % Energy
     clear ss;
     ss=CA;
     %cmax(1,n)=max(CD);
