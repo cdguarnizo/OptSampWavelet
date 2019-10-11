@@ -4,3 +4,4 @@ Codes to reproduce results from the paper [Optimal sampling frequency in wavelet
 ## Requirements
 [LibSVM toolbox](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)<br>
 Matlab Wavelet Toolbox
+Bonn University [EEG dataset](http://epileptologie-bonn.de/cms/front_content.php?idcat=193&lang=3)
