@@ -26,7 +26,7 @@ base={'db1' 'db2' 'db3' 'db4' 'db5' 'db6' 'db7' 'db8' 'db9' 'db10' 'coif1' 'coif
 
 wname=char(base{vin(3)});
 
-for m=1:length(clase),  % Numero de clases
+for m=1:length(clase),  % Number of classes
     Dr=dir(strcat(direc{m},'*.*'));
     [p,q]=size(Dr);
     for num=1:p-2
